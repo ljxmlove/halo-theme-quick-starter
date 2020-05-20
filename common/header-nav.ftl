@@ -1,4 +1,4 @@
-<header class="navbar navbar-static-top bs-docs-nav navbar-fixed-top navbar-inverse">
+<header class="navbar navbar-static-top bs-docs-nav navbar-inverse" id="top">
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
@@ -22,4 +22,3 @@
         </nav>
     </div>
 </header>
-<div id="top" style="margin-top: 20px"></div>
