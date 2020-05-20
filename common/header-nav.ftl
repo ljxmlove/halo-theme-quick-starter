@@ -7,7 +7,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a href="/" class="navbar-brand" style="font-size: 2.5rem;">福利吧</a>
+            <a href="/" class="navbar-brand" style="font-size: 2.5rem;">福利社</a>
         </div>
         <nav id="bs-navbar" class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">

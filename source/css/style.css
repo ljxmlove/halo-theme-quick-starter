@@ -2,6 +2,7 @@ body{
     width: 100%;
     padding: 0px;
     margin: 0px;
+    background-color: #eeeeee;
 }
 
 .is-invisible{
@@ -288,7 +289,7 @@ a:hover {
 /* article nav
  * ====================================================
 */
-.article-nav{overflow:hidden;margin-bottom:30px;font-size:14px;color:#bbb;}
+.article-nav{overflow:hidden;margin-bottom:30px;font-size:14px;color:#bbb;margin-top: 20px;}
 .article-nav span{float:left;position:relative;width:50%;}
 .article-nav span.article-nav-next{float:right;text-align:right}
 .article-nav span.article-nav-next::before{content:'';position:absolute;left:0;top:0;height:100%;display:block;width:1px;background-color:#eee;}

@@ -6,9 +6,16 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="keywords" content="${meta_keywords!}"/>
+    <meta name="description" content="${meta_description!}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="${title!}">
+    <meta property="og:site_name" content="${title!}">
+    <meta property="og:description" content="${meta_description!}">
+    <meta property="og:locale" content="zh">
     <#include "./common/common-header-css.ftl" />
 
-    <title>51色吧</title>
+    <title>福利社-${post.title!""}</title>
 </head>
 <body>
 <#include "./common/header-nav.ftl" />
