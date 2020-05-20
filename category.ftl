@@ -8,7 +8,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <#include "./common/common-header-css.ftl" />
 
-    <title>51色吧</title>
+    <title>福利社-${category.name!}</title>
 </head>
 <body>
 <#include "./common/header-nav.ftl" />
