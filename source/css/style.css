@@ -1,1 +1,169 @@
-style.css
+body{
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+}
+
+.is-invisible{
+    display: none !important;
+}
+
+
+.article-list-item-container {
+    position: relative;
+    border-radius: 1px 1px 0 0;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    background-color: #fff;
+    margin-bottom: -1px;
+}
+
+.article-list-item-container .focus {
+    float: left;
+    margin-left: -235px;
+    width: 220px;
+}
+.article-list-item-container .thumb {
+    width: 220px;
+    height: 150px;
+    vertical-align: middle;
+    border: 0;
+}
+.article-list-item-container header {
+    margin-bottom: 10px;
+}
+header {
+    display: block;
+}
+.article-list-item-container .article-list-item-category {
+    background-color: #16C0F8;
+}
+.article-list-item-container .article-list-item-category {
+    color: #fff;
+    background-color: #45BCF9;
+    padding: 3px 6px;
+    font-size: 12px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-right: 6px;
+}
+.article-list-item-container .article-list-item-title {
+    display: inline;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: 0;
+    font-weight: bold;
+}
+.article-list-item-container .article-list-item-title a {
+    color: #555;
+}
+.article-list-item-container .article-list-item-title a :hover {
+    color: #16C0F8;
+}
+.article-list-item-container .article-list-item-category i {
+    border-left-color: #16C0F8;
+}
+.article-list-item-container .article-list-item-category i {
+    position: absolute;
+    top: 50%;
+    margin-top: -4px;
+    right: -4px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    vertical-align: middle;
+    border-left: 4px solid #45BCF9;
+    border-top: 4px solid transparent;
+    border-bottom: 4px solid transparent;
+}
+.article-list-item-container time, .article-list-item-container .pv, .article-list-item-container .pc, .article-list-item-container .author {
+    margin-right: 20px;
+}
+.article-list-item-container .article-list-item-meta {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.article-list-item-container .article-list-item-meta .fa {
+    margin-right: 4px;
+}
+.article-list-item-container .note {
+    font-size: 12px;
+    color: #999;
+    word-wrap: break-word;
+    line-height: 20px;
+    margin-bottom: 0;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: #428bca;
+    text-decoration: none;
+}
+
+
+
+/*最新资源部分*/
+.widget {
+    clear: both;
+    position: relative;
+    margin-bottom: 15px;
+    background-color: #fff;
+    border-radius: 4px;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+}
+.widget h3 {
+    font-size: 18px;
+    color: #666;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fbfbfb;
+    margin: 0;
+    padding: 11px 15px 10px;
+}
+.widget ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.widget_ui_posts .nopic li a {
+    padding: 10px 15px;
+}
+.widget_ui_posts li a {
+    padding: 10px 15px 10px 150px;
+    color: #888;
+    border-bottom: solid 1px #eee;
+    overflow: hidden;
+    position: relative;
+    display: block;
+    font-size: 14px;
+}
+.text, .note {
+    text-align: justify;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+}
+.widget_ui_posts .text {
+    display: block;
+}
+.widget_ui_posts .muted {
+    margin-right: 15px;
+    font-size: 12px;
+    color: #bbb;
+}
+.widget_ui_posts .nopic .text {
+    margin-top: 0;
+    color: #888;
+}
