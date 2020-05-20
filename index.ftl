@@ -16,6 +16,9 @@
 
     <div class="row">
         <div class="col-md-9 col-sm-12">
+            <div class="title">
+                <h3> 最新发布 </h3>
+            </div>
             <#include "./common/article-list.ftl" />
         </div>
         <div class="col-md-3 hidden-sm" style="padding: 0px">

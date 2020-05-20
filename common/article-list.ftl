@@ -7,7 +7,7 @@
 
 <!-- 分页 -->
 <#if posts.getTotalPages() gt 1>
-    <nav aria-label="Page navigation">
+    <nav aria-label="Page navigation" style="text-align: center">
         <ul class="pagination">
             <@paginationTag method="index" page="${posts.number}" total="${posts.totalPages}" display="3">
                 <li class="<#if pagination.hasPrev><#else > is-invisible hidden-sm</#if>">
